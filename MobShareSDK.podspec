@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.subspec 'Core' do |sp|
         sp.vendored_frameworks = 'Official-Sources/ShareSDK/Core/AGCommon.framework', 'Official-Sources/ShareSDK/Core/MOBFoundation.framework', 'Official-Sources/ShareSDK/Core/ShareSDKCoreService.framework'
         sp.libraries = 'z', 'icucore'
-        sp.resources = ['Official-Sources/ShareSDK/Core/Resource.bundle', 'Official-Sources/ShareSDK/Core/zh-Hans.lproj/ShareSDKLocalizable.strings']
+        sp.resources = ['Official-Sources/ShareSDK/Core/Resource.bundle', 'Official-Sources/ShareSDK/Core/zh-Hans.lproj/ShareSDKLocalizable.strings', 'Official-Sources/ShareSDK/Core/en.lproj/ShareSDKLocalizable.strings']
     end
 
     s.subspec 'UI' do |sp|
